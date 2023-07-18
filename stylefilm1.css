@@ -1,0 +1,200 @@
+*{
+  font-family: 'Quicksand', sans-serif;
+  background-color: #03001C;
+  box-sizing: border-box;
+
+}
+
+.navigasi{
+  overflow: hidden;
+  border: 2px solid white;
+  border-radius: 20px;
+  
+}
+
+div{
+  
+}
+
+li{
+  display: flex;
+  float: left;
+  list-style: none;
+}
+
+.isi-navigasi{
+  list-style: none;
+  display: inline-block;
+  padding-left: 25px;
+  padding-top: 20px;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.judul-film{
+  color: white;
+}
+.link{
+  text-decoration: none;
+  color: white;
+  padding-left: 30px;
+}
+
+.logo{
+  list-style: none;
+  width: 60px;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin-top: 5px;
+  background-color: white;
+}
+
+h1{
+  text-align: center;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.checked{
+  color: orange;
+}
+
+.judul{
+  padding-top: 10px;
+}
+
+#search{
+  border: 1px solid white;
+  width: 500px;
+  font-size: 20px;
+  background: white;
+  float: left;
+}
+
+.search-btn{
+  width: 77px;
+  height: 36px;
+  cursor: pointer;
+  margin-left: 20px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  background-color: white;
+  background-image: url(Asset-web/Search_Vector_Hd_Images__Search_Vector_Icon__Search_Icons__Search_Clipart__Engine_PNG_Image_For_Free_Download-removebg-preview.png);
+}
+
+.search-btn:active{
+  background: url(./Asset-web/Search_Vector_Hd_Images__Search_Vector_Icon__Search_Icons__Search_Clipart__Engine_PNG_Image_For_Free_Download-removebg-preview.png);
+}
+
+.logo-search{
+  width: 30px;
+  margin-bottom: 15px;
+  background-color: white;
+}
+
+.logo-user{
+  width: 50px;
+  margin-left: 650px;
+}
+
+.middle-container{
+  display: grid;
+  grid-auto-columns: 100%;
+  grid-column-gap: 10px;
+  grid-auto-flow: column;
+  padding: 25px 0px;
+  list-style: none;
+  overflow-y: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.posisi{
+  display: flex;
+  flex-direction: column;
+  margin-left: 230px;
+  flex-wrap: wrap;
+  
+}
+
+.dropdown li form div{
+  display: none;
+}
+
+
+.navigasi ul li a:hover{
+  background: #18122B;
+  display: block;
+  box-shadow: inset 0px 0px 5px #18122B;
+}
+
+
+
+.login-form form{
+  display: none;
+  position: relative;
+
+}
+
+.login{
+  width: 500px;
+  height: 300px;
+  display: block;
+}
+
+.gbr {
+  position: absolute;
+  right: 20px;
+  top: auto;
+}
+
+.entahlah{
+  display: grid;
+}
+h2 {
+  background-color: #03001C;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+video {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%px;
+  padding: 10px;
+  background-color: white;
+}
+
+.filmcard {
+  position: absolute;
+  right: 0;
+}
+
+.inpo{
+  margin-top: 30px;
+}
+.poster {
+  height: 250px;
+  padding: 20px;
+}
+.infofilm{
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+.info{
+  padding-top: 50px;
+}
+
+.info ul li{
+ line-height: 20px ;
+  font-size: 15px;
+  display:list-item;
+  color: aliceblue;
+}
+
+.sinopsis {
+  padding: 20px;
+  color: aliceblue;
+}

@@ -1,0 +1,200 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #03001C;
+    box-sizing: border-box;
+}
+
+.navigasi{
+    overflow: hidden;
+    border: 2px solid white;
+    border-radius: 20px;
+    
+}
+
+.tulisan{
+    color: white;
+    text-align: center;
+    background-color: #03001C;
+}
+
+
+li{
+    display: flex;
+    float: left;
+    list-style: none;
+}
+
+
+.isi-navigasi{
+    list-style: none;
+    display: inline-block;
+    padding-left: 2%;
+    padding-top: 15px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.judul-film{
+    color: white;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+}
+
+.logo{
+    list-style: none;
+    width: 60px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    background-color: white;
+}
+
+
+.checked{
+    color: orange;
+}
+
+.judul{
+    text-align: center;
+    background-color: #03001C;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+#search{
+    border: 1px solid white;
+    width: 500px;
+    font-size: 20px;
+    background: white;
+    float: left;
+}
+
+.search-btn{
+    width: 77px;
+    height: 36px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    background-color: white;
+    background-image: url(Asset-web/Search_Vector_Hd_Images__Search_Vector_Icon__Search_Icons__Search_Clipart__Engine_PNG_Image_For_Free_Download-removebg-preview.png);
+}
+
+.search-btn:active{
+    background: url(./Asset-web/Search_Vector_Hd_Images__Search_Vector_Icon__Search_Icons__Search_Clipart__Engine_PNG_Image_For_Free_Download-removebg-preview.png);
+}
+
+.logo-search{
+    width: 30px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.logo-user{
+    width: 50px;
+    margin-left: 650px;
+}
+
+.middle-container{
+    display: grid;
+    grid-auto-columns: 150%;
+    grid-column-gap: 20px;
+    grid-auto-flow: column;
+    padding: 20px 0px;
+    list-style: none;
+    overflow-y: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.posisi{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    margin-top: none;
+}
+
+.dropdown li form div{
+    display: none;
+}
+
+
+.navigasi ul li a:hover{
+    background: #18122B;
+    display: block;
+    box-shadow: inset 0px 0px 5px #18122B;
+}
+
+
+
+.login-form form{
+    display: none;
+    position: relative;
+
+}
+
+.login{
+    width: 500px;
+    height: 300px;
+    display: block;
+}
+
+@media only screen and (max-width:768px){
+    body{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+}
+
+.jumbo{
+    margin-top: none;
+    margin-bottom: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.logo-wa{
+    padding-bottom: 25px;
+    width: 50px;
+}
+
+.logo-ig{
+    width: 60px;
+    padding-bottom: 20px;
+}
+
+.ig{
+    margin-left: 500px;
+}
+
+.tulisan-wa{
+    padding-top: 30px;
+    padding-left: 20px;
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.tulisan-ig{
+    padding-top: 30px;
+    padding-left: 20px;
+    list-style: none;
+    display: inline-block;
+}
+
+
+
+
+
+

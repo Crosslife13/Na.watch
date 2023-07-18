@@ -1,0 +1,14 @@
+*{
+  font-family: 'Quicksand', sans-serif;
+  background-color: #03001C;
+  box-sizing: border-box;
+}
+
+.judul{
+  color: white;
+}
+
+.checkbox{
+  color: white;
+  padding-left: 10px;
+}
